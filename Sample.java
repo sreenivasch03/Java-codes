@@ -3,12 +3,14 @@ public class Sample
     String name;
     int age;
     String location;
+    int percentage;
 
-    public Sample(String name,int age,String location)
+    public Sample(String name,int age,String location,int percentage)
     {
         this.name = name;
         this.age = age;
         this.location = location;
+        this.percentage =
     }
     public void info()
     {
@@ -19,7 +21,7 @@ public class Sample
 
     public static void main(String[]args)
     {
-        Sample s = new Sample("Sreenivas",22,"Hyderabad");
+        Sample s = new Sample("Sreenivas",22,"Hyderabad",75);
         s.info();
     }
 }
