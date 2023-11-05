@@ -19,7 +19,7 @@ public class Sample
 
     public static void main(String[]args)
     {
-        Sample s = new Sample("Sreenivas",22,"Kurnool");
+        Sample s = new Sample("Sreenivas",22,"Hyderabad");
         s.info();
     }
 }
